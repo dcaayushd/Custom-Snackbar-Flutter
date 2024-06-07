@@ -2,15 +2,15 @@
 
 This Flutter app demonstrates the implementation of custom SnackBars with different styles for various scenarios like failure, help, success, and warning.
 
-## DEMO
-
-![App Demo](screenshots/snackbar.gif)
-
 ## Features
 
 - Displays four different styled SnackBars for failure, help, success, and warning scenarios.
 - Clean and modern UI with a dark theme.
 - Easy to understand and modify codebase.
+
+## DEMO
+
+![App Demo](screenshots/snackbar.gif)
 
 ## Getting Started
 
