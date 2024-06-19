@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class MySnackBars {
   /// failure
-  static var failureSnackBar = SnackBar(
+  static var failureSnackBar = const SnackBar(
     elevation: 0,
     behavior: SnackBarBehavior.floating,
     backgroundColor: Colors.transparent,
@@ -16,7 +16,7 @@ class MySnackBars {
   );
 
   /// help
-  static var helpSnackBar = SnackBar(
+  static var helpSnackBar = const SnackBar(
     elevation: 0,
     behavior: SnackBarBehavior.floating,
     backgroundColor: Colors.transparent,
@@ -29,7 +29,7 @@ class MySnackBars {
   );
 
   /// success
-  static var successSnackBar = SnackBar(
+  static var successSnackBar = const SnackBar(
     elevation: 0,
     behavior: SnackBarBehavior.floating,
     backgroundColor: Colors.transparent,
@@ -42,7 +42,7 @@ class MySnackBars {
   );
 
   /// warning
-  static var warningSnackBar = SnackBar(
+  static var warningSnackBar = const SnackBar(
     elevation: 0,
     behavior: SnackBarBehavior.floating,
     backgroundColor: Colors.transparent,
